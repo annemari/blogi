@@ -11,4 +11,8 @@
             </li>
         <?php endforeach; ?>
     </ul>
+<h3>Search by tags</h3>
+<div class="col-8">
+    <a href="<?php echo URLROOT ?>/tags/create/<?php echo $data['tag']->id; ?>" class="btn btn-success">Search by tags</a>
+</div>
 <?php require_once APPROOT . '/views/inc/footer.php'; ?>
